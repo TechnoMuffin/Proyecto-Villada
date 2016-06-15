@@ -2,6 +2,7 @@
 - cmbx = ComboBox
 - check = CheckBox
 - btn = Boton
+- txt = TextField
 
 ##TEMPLATE DE CONTROL DE USUARIO
 ###COMBO BOX
@@ -11,4 +12,7 @@
 
 ###CHECK BOX
 - checkPresence = Checkbox para comprobar la asistencia del alumno
+
+##TEMPLATE REGISTRO DE USUARIOS
+-txtNombreUsuario
 
