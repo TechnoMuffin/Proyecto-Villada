@@ -1,0 +1,4 @@
+Apps:
+
+-chiefRegister:
+    Es la aplicacion encargada de Registrar a los Jefes de Area del taller
