@@ -6,4 +6,4 @@ from django.conf import settings
 
 class AreaChief(models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL)
-    photo = models.ImageField(upload_to='profiles', blank=True, null=True)
+    

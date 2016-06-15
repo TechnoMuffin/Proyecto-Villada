@@ -10,3 +10,4 @@ def base(request):
 def seguimientoAl(request):
     context = RequestContext(request)
     return render_to_response('SeguimientoAlumno.html',context)
+
