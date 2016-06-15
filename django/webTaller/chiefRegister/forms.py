@@ -4,10 +4,14 @@ from django.contrib.auth.models import User
 
 class RegistroUserForm(forms.Form):
 
-    username = forms.CharField(min_length=5)
-    email = forms.EmailField()
-    password = forms.CharField(min_length=5, widget=forms.PasswordInput())
-    password2 = forms.CharField(widget=forms.PasswordInput())
+    username = forms.CharField(min_length=5,widget=forms.TextInput(attrs={'class': 'form-control'}))
+
+    email = forms.EmailField(widget=forms.EmailInput(attrs={'class': 'form-control'}))
+
+    password = forms.CharField(min_length=5,widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+
+    password2 = forms.CharField(min_length=5,widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+
 
     def clean_username(self):
         """Comprueba que no exista un username igual en la db"""
