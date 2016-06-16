@@ -10,6 +10,15 @@ def base(request):
 def seguimientoAl(request):
     context = RequestContext(request)
     return render_to_response('SeguimientoAlumno.html',context)
-def registroUser(request):
+def registerUser(request):
         context = RequestContext(request)
-        return render_to_response('RegistroUsuario.html',context)
+        return render_to_response('CreaUsuario.html',context)
+def loginUser(request):
+        context = RequestContext(request)
+        return render_to_response('Login.html',context)
+def olvidaContra(request):
+        context = RequestContext(request)
+        return render_to_response('OlvidoContra.html',context)
+def loginAdmin(request):
+        context = RequestContext(request)
+        return render_to_response('LogAdmin.html',context)
