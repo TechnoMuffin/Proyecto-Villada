@@ -13,6 +13,13 @@
 ###CHECK BOX
 - checkPresence = Checkbox para comprobar la asistencia del alumno
 
+###TABLAS
+- tbleCon = Table de Area de Control
+- tbleSeg = Table de Seguimiento de Alumno
+ 
+###TEXTAREA
+- obsAlum = Textarea de observaciones de alumno
+
 ##TEMPLATE REGISTRO DE USUARIOS
 -txtNombreUsuario
 
